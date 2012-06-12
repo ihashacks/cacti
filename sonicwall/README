@@ -1,0 +1,5 @@
+#Sonicwall Cacti Host Tempalte
+
+This requires both the host xml tempaltes as well as the data query script. 
+place the query_sonicwallvpn.pl in your scripts/ directory in your cacti 
+installation.
