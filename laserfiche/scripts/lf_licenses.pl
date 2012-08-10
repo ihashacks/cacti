@@ -27,9 +27,9 @@ $license_full = `$CHKNTPATH/check_nt -H $ARGV[0] -p 12489 -v COUNTER -l "\\Laser
 chomp $license_full; 
 
 # Retrieval Licenses LaserFiche sessions
-$license_retreival = `$CHKNTPATH/check_nt -H $ARGV[0] -p 12489 -v COUNTER -l "\\Laserfiche Server\\Retrieval Licenses"`; 
-chomp $license_retreival; 
+$license_retrieval = `$CHKNTPATH/check_nt -H $ARGV[0] -p 12489 -v COUNTER -l "\\Laserfiche Server\\Retrieval Licenses"`; 
+chomp $license_retrieval; 
 
 print "license_full:"		. $license_full . 
-	" license_retreival:"	. $license_retreival . 
+	" license_retrieval:"	. $license_retrieval . 
 	"\n";
