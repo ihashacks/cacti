@@ -2,7 +2,8 @@ howto:
 
 1) import all xml files
 2) copy 62xx_cpu.pl to <cacti directory>/scripts/
-3) apply appropriate Powerconnect template to desired host
+3) apt-get install -y libnet-snmp-perl libsnmp-perl
+4) apply appropriate Powerconnect template to desired host
 
 
 source:
