@@ -4,7 +4,7 @@ howto:
 2) copy 62xx_cpu.pl to <cacti directory>/scripts/
 3) apt-get install -y libnet-snmp-perl libsnmp-perl (Debian/Ubuntu)
 OR
-3) yum install -y perl-Net-SNMP (CentOS/RedHat)
+3) yum install -y net-snmp-perl (CentOS/RedHat)
 4) apply appropriate Powerconnect template to desired host
 
 
